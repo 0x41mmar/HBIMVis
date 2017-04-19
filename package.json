@@ -1,0 +1,31 @@
+{
+  "name": "HBIM-Data",
+  "version": "1.0.0",
+  "description": "Data Streaming Interface",
+  "author": {
+    "name": "Ammar A.",
+    "email": "ammar2.alzaatreh@live.uwe.ac.uk"
+  },
+
+  "engines": {
+    "node": ">= 4.4.7",
+    "npm": ">= 2.15.8"
+  },
+
+  "dependencies": {
+    "express": "~4.13.3",
+    "request": "^2.51.0",
+    "compression": "^1.6.0",
+    "cheerio": "~0.22.0",
+    "semaphore":"^1.0.5"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  
+  "scripts": {
+    "start": "node weather.js"
+  },
+  
+  "private": true,
+  "main": "weather.js"
+}
